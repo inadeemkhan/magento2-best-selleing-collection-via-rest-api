@@ -1,0 +1,22 @@
+{
+    "name": "nadeem/module-bestselling",
+    "description": "magento2 extension to get best selling collection via rest API | Nadeem Khan",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nadeem\\BestSelling\\": ""
+        }
+    }
+}
