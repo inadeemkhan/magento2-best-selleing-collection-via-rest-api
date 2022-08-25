@@ -12,9 +12,8 @@ interface GetBestSellingCollectionManagementInterface
 
     /**
      * GET for getBestSellingCollection api
-     * @param string $param
      * @return string
      */
-    public function getGetBestSellingCollection($param);
+    public function getGetBestSellingCollection();
 }
 
